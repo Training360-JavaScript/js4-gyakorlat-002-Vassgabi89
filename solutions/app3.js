@@ -19,7 +19,7 @@ const getMovieData = () => movieData;
  */
 const getMovies = (url = '') => {
     fetch(url)
-        .then(title => title.json())
+        .then(response => response.json())
         .then(title => movieData=title)
         .catch(
             () => console.log(`Error: ${url} is not found!`),
