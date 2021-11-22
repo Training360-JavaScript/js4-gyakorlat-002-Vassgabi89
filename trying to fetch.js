@@ -53,10 +53,12 @@ const getProducts = (url) => {
         )
 }
 
+getProducts ('https://nettuts.hu/jms/js4-002/products?limit=3')
+
 /**
  * TODO: exportáld ki helyesen a getProducts függvényt!
  */
-export {
-    getProducts,
-    getProductData
-}
+// export {
+//     getProducts,
+//     getProductData
+// }
