@@ -32,5 +32,5 @@ const getMovies = (url = '') => {
  */
 export {
     getMovies,
-    getMovieData
+    getMovieData,
 }

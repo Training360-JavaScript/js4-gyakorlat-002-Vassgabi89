@@ -1,5 +1,5 @@
 // Defining the timeout for the test
-const timeout = process.env.SLOWMO ? 6000 : 2500;
+const timeout = process.env.SLOWMO ? 8000 : 5000;
 const puppeteer = require('puppeteer');
 const myServer = require('../server');
 

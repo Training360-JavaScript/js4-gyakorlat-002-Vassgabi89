@@ -58,5 +58,5 @@ const getProducts = (url) => {
  */
 export {
     getProducts,
-    getProductData
+    getProductData,
 }

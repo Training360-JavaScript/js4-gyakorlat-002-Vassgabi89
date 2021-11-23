@@ -33,5 +33,5 @@ const getUsers = (url = '') => {
  */
 export {
     getUsers,
-    getUserData
+    getUserData,
 }
